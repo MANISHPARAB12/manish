@@ -1,0 +1,212 @@
+* {
+    background-color:#020521;
+    scroll-behavior: smooth;
+}
+section {
+    height: 99vh;
+}
+nav ul{
+    display: flex;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    font-weight: bold;
+}
+nav li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.text-container {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+ .fed {
+        background: linear-gradient(to right, red,#0072ff);
+       background-clip: text;
+        color: transparent;
+    }
+.text-container p {
+    margin: 25px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Cv, .Work {
+    color: white;
+    border: white 2px solid;
+    border-radius: 40px;
+    height: 60px;
+    width: 150px;
+    font-weight:bold;
+}
+.Cv:hover {
+    background-color: white;
+    color: black;
+}
+.Work:hover {
+    background: linear-gradient(to right, red 2%,blue );
+    border: none;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -80px;
+    gap: 70px;
+}
+.About h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+}
+.myimg {
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px 20px blue;
+}
+.skills h1 {
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skills-container{
+            color: white;
+        }
+        .html {
+            display: block;
+            background-color: navy;
+            height: 20px;
+            animation: htmlprogress 7s infinite;
+            border-radius: 20px;
+        }
+        @keyframes htmlprogress {
+          from {
+            width: 0;
+          }
+          to {
+            width:95%;
+          }
+        }
+        .css {
+            display: block;
+            background-color: navy;
+            height: 20px;
+            animation: cssprogress 7s infinite;
+            border-radius: 20px;
+        }
+        @keyframes cssprogress {
+          from {
+            width: 0;
+          }
+          to {
+            width:85%;
+          }
+        }
+        .Js {
+            display: block;
+            background-color: navy;
+            height: 20px;
+            animation: Jsprogress 7s infinite;
+            border-radius: 20px;
+        }
+        @keyframes Jsprogress {
+          from {
+            width: 0;
+          }
+          to {
+            width:15%;
+          }
+        }
+        .bootstrap {
+            display: block;
+            background-color: navy;
+            height: 20px;
+            animation: Bsprogress 7s infinite;
+            border-radius: 20px;
+        }
+        @keyframes Bsprogress {
+          from {
+            width: 0;
+          }
+          to {
+            width:50%;
+          }
+        }
+        .tailwind {
+            display: block;
+            background-color: navy;
+            height: 20px;
+            animation: twprogress 7s infinite;
+            border-radius: 20px;
+        }
+        @keyframes twprogress {
+          from {
+            width: 0;
+          }
+          to {
+            width:40%;
+          }
+        }
+        .figma {
+            display: block;
+            background-color: navy;
+            height: 20px;
+            animation: figmaprogress 7s infinite;
+            border-radius: 20px;
+        }
+        @keyframes figmaprogress {
+          from {
+            width: 0;
+          }
+          to {
+            width:25%;
+          }
+        }
+
+@media (max-width:768px) {
+    nav ul {
+        margin-left: -35px;
+    }
+    .text-container {
+        font-size: 36px;
+    }
+    
+    .my-img {
+    text-align: center;
+    }
+    .myimg {
+        box-shadow: 0 0 60px 10px blue;
+        margin-top: 15px;
+    }
+    .aboutcontainer {
+        margin-top:20px;
+    }
+    .abouttxt {
+        /* margin-top: 50px !important; */
+        margin: 40px 10px 10px 10px ;
+    }
+
+}
+
+@media (min-width:769px) {
+    .aboutcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
+    .abouttxt {
+        display: flex;
+        margin-left: 120px;
+        width: 400px;
+    }
+}
